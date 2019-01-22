@@ -13,11 +13,48 @@ section {
     padding: 60px 0;
 }
 
+#header {
+    background-color: #232321;
+}
+
 #header img {
     border: 3px solid #f85857;
     border-radius: 3px;
     display: block;
     margin: 0 auto;
+}
+
+#header .intro {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid #f2cc33;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+#header h1 {
+    font-size: 150px;
+    margin-bottom: 0;
+}
+
+#header p {
+    font-size: 30px;
+    margin: 30px;
+}
+
+#header h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#header h3 {
+    font-weight: 400;
+    margin-bottom: 60px;
 }
 
 #info{
@@ -52,7 +89,26 @@ h3,
 }
 
 .grade {
-    width: 40%;
+    text-align: center;
+    font-size: 150px;
+    border-radius: 3px;
+    margin: 0 25%;
+    margin-bottom: 30px;
+}
+
+.grade_C {
+    color: #f2cc33;
+    border: 5px solid #f2cc33;
+}
+
+.grade_B {
+    color: #11998e;
+    border: 5px solid #11998e;
+}
+
+.grade_F {
+    color: #f85857;
+    border: 5px solid #f85857;
 }
 
 #info h3 {
@@ -144,6 +200,7 @@ h3,
 #accordion h5 a {
     text-decoration: none;
     color: #fff;
+    display: block;
 }
 
 #accordion .error_text {
@@ -211,14 +268,3 @@ h3,
     font-size: 15px;
     margin: 0 !important;
 }
-
-
-
-
-
-
-
-
-
-
-
