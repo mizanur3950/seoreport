@@ -1,4 +1,21 @@
-@media screen and (max-width:575.98px) {
+@media screen and (max-width:320px){
+    
+    #header h1 {
+        font-size: 100px;
+    }
+    
+    .hero-text {
+        width: 80%;
+    }
+    
+    #header h2 {
+        font-size: 24px;
+    }
+    
+    #header h3 {
+        font-size: 18px;
+    }
+    
     h1 {
         font-size: 28px;
     }
@@ -9,6 +26,62 @@
 
     #info h2 {
         font-size: 26px;
+    }
+    
+    .grade {
+        font-size: 100px;
+        margin: 0 20%;
+        margin-bottom: 30px;
+    }
+
+    #info h3 {
+        font-size: 22px;
+    }
+
+    #info h6 {
+        font-size: 15px;
+    }
+    
+    #mobile_image {
+        left: 8.5%;
+        width: 83%;
+    }
+}
+
+@media (min-width:321px) and (max-width:575.98px) {
+    
+    #header h1 {
+        font-size: 100px;
+    }
+    
+    .hero-text {
+        width: 80%;
+    }
+    
+    #header h2 {
+        font-size: 24px;
+    }
+    
+    #header h3 {
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    #info h5 {
+        font-size: 16px;
+    }
+
+    #info h2 {
+        font-size: 26px;
+    }
+    
+    .grade {
+        font-size: 100px;
+        margin: 0 20%;
+        margin-bottom: 30px;
     }
 
     #info h3 {
@@ -22,9 +95,18 @@
     #grade h4 {
         font-size: 22px;
     }
+    
+    #mobile_image {
+        left: 21.5%;
+        width: 57%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .hero-text {
+        width: 80%;
+    }
+    
     h1 {
         font-size: 32px;
     }
@@ -44,6 +126,12 @@
     #mobile_image {
         left: 8.5%;
         width: 83%;
+    }
+    
+    .grade {
+        font-size: 120px;
+        margin: 0 20%;
+        margin-bottom: 30px;
     }
 
     #grade h6,
