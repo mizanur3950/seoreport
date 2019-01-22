@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Audit for #page_url</title>
+	<style>
+	body {
+		font-family: #font_family; 
+		background: linear-gradient(to bottom, #696969 -50%, #000000 137%);
+		
+	}
+	
+	h1 {
+		font-family: #font_family;
+		word-wrap: break-word;
+		font-size: 1.5vw;
+		color: #heading_color;
+	}
+	
+	h2 {
+		margin-top: 8vh;
+		font-family: #font_family;
+		font-size: 1.2vw;
+		word-wrap: break-word;
+		color: #heading_color;
+	}
+	
+	.bullet{
+		font-size: 1vw;
+		font-weight: bold;
+	}
+	
+	.div_colour1 {
+		background-color: #background_one_color;
+		width: 70%;
+		margin: auto;
+		border-left-style: solid;
+		border-right-style: solid;
+		border-width: 3px;
+	}
+	
+	.div_colour2 {
+		background-color:  #background_two_color;
+		width: 70%;
+		margin: auto;
+		border-left-style: solid;
+		border-right-style: solid;
+		border-width: 3px;
+	}
+	
+	.main{
+		display: block;
+		margin: auto;
+		width: 85%;
+		overflow:hidden;
+	}
+	
+	.scorebox_main{
+		display: block;
+		margin: auto;
+		width: 72%;
+		max-width:72%;
+		overflow:hidden;
+		margin-top: 2em;
+	}
+	
+	.scoreboxes{
+		display: inline-block;
+		width: 31%;
+		max-width: 31%;
+		text-align: center;
+		font-size: 1vw;
+	}
+	
+	.scoreboxes_2{
+		display: inline-block;
+		width:48%;
+		max-width: 48%;
+		text-align: center;
+		font-size: 1vw;
+	}
+	
+	li {
+		font-size: 0.7vw;
+	}
+		
+	p{
+		font-size: 1vw;
+		word-wrap: break-word;
+	}
+	
+	.congrats {
+		color: green;
+		font-weight: bold;
+	}
+	
+	.caption{
+		text-align: center;
+	}
+	
+	.logo_image{
+		float: right;
+		max-width: 200px;
+		max-height: 150px;
+		margin-top: 24px;
+	}
+	
+	.phoneoutline{
+		width: 50%;
+		display: block;
+		margin: auto;
+	}
+	
+	.desktopoutline{
+		width: 100%;
+		display: block;
+		margin: auto;
+	}
+	
+	.result_circle_speed{
+		width: 60%;
+		display: block;
+		margin: auto;
+	}
+	
+	.result_circle_seo{
+		width: 60%;
+		display: block;
+		margin: auto;
+	}
+	
+	.result_circle_seo_overall{
+		width: 60%;
+	}
+	
+	.desktop_img{
+	    position: absolute;
+		width: 26.7%;
+		margin-top: -23.25%;
+		margin-left: 1.41%;
+	}
+	
+	.phoneimg{
+	    position: absolute;
+		width: 12.5%;
+		margin-top: -24.5%;
+		margin-left: 8.5%;
+	}
+	
+	.scorecontainer{
+		position: absolute;
+		margin-top: -11vw;;
+		margin-left: 5.85%;
+		width: 13vw;
+	}
+	
+	.scoreresult{
+		width: 100%;
+		font-size: 6vw;
+		font-weight: bold;
+		text-align: center;
+		margin: initial;
+		letter-spacing: 0.4vw;
+	}	
+	
+	.speed_analysis{
+		display: inline-block;
+		width:32%;
+		max-width: 32%;
+		text-align: center;
+		font-size: 1vw;
+		margin-top: 7vh;
+		background-color: #dddddd;
+	}
+	
+	.leftcolumn{
+		float:left;
+		max-width:75%;
+	}
+
+	.rightcolumn{
+		float:right;
+		max-width:25%;
+		text-align:right;
+	}
+	
+	.half_column_left{
+		float:left;
+		max-width:50%;
+		width:50%;
+	}
+	
+	.half_column_right{
+		float:right;
+		max-width:50%;
+		width:50%;
+	}
+	
+	.results_bullets{
+		border: 1px solid;
+		border-color: #dedede;
+		padding: 1vw;
+		margin-bottom: 2vh;
+	}
+	
+	table {
+		font-family: #font_family;
+		border-collapse: collapse;
+		width: 100%;
+		font-size: 1vw;
+		margin-bottom: 2vw;
+	}
+
+	td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 8px;
+	}
+
+	.brand_text{
+		font-size:0.7vw;
+		color: #808080;
+	}
+	
+	.intro_text{
+		font-size:0.7vw;
+		color: #introduction_text_color;
+	}
+	
+	
+	<!--Custom CSS-->
+	
+	</style>
+</head>
+	<body>
+		<div class="div_colour1" style="border-top-style: solid; border-width: 3px">
+			<img style="width:100%;" src="Images\cover.png"/>
+		</div>
+		<div class="div_colour1">
+			<div class="main">
+					
+				<div class="leftcolumn">
+					<img class="logo_image" src="Images\logo.#EXTENSION#"/>
+				</div>
+				
+				<div class="rightcolumn">
+					<p><b>#brand</b></p>
+					<div class="brand_text">#brand_details</div>
+				</div>
+				
+			</div>
+		
+			
+			<div class="main">
+				<div class="leftcolumn">
+					<h1>Website Audit For #domain_name</h1>
+					<p>Page Audited: #page_url</p>
+					<p>Main Keyword Tested: <b>#target_keyword</b></p>
+					<p class="intro_text">Audit Date: <b>#report_date</b><p>
+					<p class="intro_text">#intro_text</p>
+					<!--<p style="color:Green;font-weight:bold;">This page is indexed in Google ✔</p>-->
+					<!--<p style="color:Red;font-weight:bold;">This page is NOT indexed in Google ✖</p>-->
+				</div>
+				
+				<div class="rightcolumn">
+					<h1>Your Score</h1>
+					<img class="result_circle_seo_overall" src="Images\A.png"/>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		<div class="div_colour2">
+			<div class="main">
+				<h1>What Your Page Looks Like</h1>	
+				
+				<div class="half_column_left">
+					<img class="desktopoutline" src="Images\desktop_outline.png"/>
+					<img class="desktop_img" src="Images\desktop.png"/>
+					<p class="caption">Desktop View</p>
+				</div>
+				
+				<div class="half_column_right">
+					<img class="phoneoutline" src="Images\phone_outline.png"/>
+					<img class="phoneimg" src="Images\mobile.png"/>
+					<p class="caption">Mobile View</p>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="div_colour1">
+			<div class="main">
+				<h1>Overview</h1>
+				
+				<div class="half_column_left">
+					<p class="caption">SEO Score</p>
+					
+					<img class="result_circle_seo" src="Images\A+.png"/>
+					
+					<!--
+					<div class="scorecontainer">
+						<p class="scoreresult" style="color:#49e23a;">A+</p>
+					</div>
+					-->
+					
+					<div class="scorebox_main">
+						<div class="scoreboxes">
+							Errors 
+							<p class="caption">#errors</p>
+						</div>
+						
+						<div class="scoreboxes">
+							Warnings
+							<p class="caption">#warnings</p>
+						</div>
+						
+						<div class="scoreboxes">
+							Passed
+							<p class="caption">#passed</p>
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				
+				<div class="half_column_right">
+					<p class="caption">Page Speed Score</p>
+				
+					<img class="result_circle_speed" src="Images\B+.png"/>
+					
+					<!--
+					<div class="scorecontainer">
+						<p class="scoreresult" style="color:#fdd90f;">B+</p>
+					</div>
+					-->
+					
+					<div class="scorebox_main">
+						<div class="scoreboxes">
+							Load Time
+							<p class="caption">#load</p>
+						</div>
+						
+						<div class="scoreboxes">
+							Page Size
+							<p class="caption">#size</p>
+						</div>
+						
+						<div class="scoreboxes">
+							Requests 
+							<p class="caption">#req</p>
+						</div>
+					</div>
+					
+				</div>
+			
+			</div>
+		</div>
+		
+		<div class="div_colour2">
+			<div class="main">
+				<h1>Page SEO Analysis</h1>
+				
+				<h2>Errors</h2>
+				
+				<ul>
+					<!--Insert Errors-->
+				</ul>
+				
+				<h2>Warnings</h2>
+				
+				<ul>
+					<!--Insert Warnings-->
+				</ul>
+				
+				<h2>Passed</h2>
+				
+				<ul>
+					<!--Insert Passed-->
+				</ul>
+				
+			</div>
+		</div>
+		
+		<!--
+		<div class="div_colour1">
+			<div class="main">
+				<h1>Page Speed Analysis</h1>
+				
+				<div class="speed_analysis">
+					<p><b>Server Response Time</b></p>
+					<p>#serverload sec</p>
+				</div>
+				
+				<div class="speed_analysis">
+					<p><b>Primary HTML Load Time</b></p>
+					<p>#html_load sec</p>
+				</div>
+								
+				<div class="speed_analysis">
+					<p><b>Page Requests Load Time</b></p>
+					<p>#pageload sec</p>
+				</div>
+				
+				<h2>Requests Made</h2>
+				
+							
+				<table>
+					<tr style="background-color: #dddddd;">
+						<th>Type</th>
+						<th>Source</th>
+						<th>Size (KB)</th>
+						<th>HTTP Status</th>
+					</tr>	
+							
+				
+								
+				</table>
+				
+			</div>
+		</div>
+		-->
+		
+		<div class="div_colour1">
+			<div class="main">
+				<h1>Suggestions</h1>
+					
+				<ul>
+					<!--Insert Suggestions-->
+				</ul>
+			</div>
+		</div>
+		
+		
+	</body>
+</html>

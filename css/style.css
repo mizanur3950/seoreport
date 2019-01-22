@@ -1,0 +1,224 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #171f2e;
+    font-weight: 400;
+}
+
+.highlight {
+    color: #f85857;
+    font-weight: 700;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#header img {
+    border: 3px solid #f85857;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+}
+
+#info{
+    background-color: #fff;
+}
+
+#info img {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+h3,
+#info h6 {
+    font-weight: 700;
+}
+
+#info h5{
+    margin-bottom: 12px;
+}
+
+.para {
+    font-size: 12px;
+    padding: 0 10%;
+}
+
+#info h2 {
+    margin-bottom: 30px;
+}
+
+.grade {
+    width: 40%;
+}
+
+#info h3 {
+    margin-bottom: 20px;
+}
+
+#info button {
+    margin-bottom: 20px;
+}
+
+#view {
+    background-color: #e9ebee;
+    padding: 60px 0;
+}
+
+
+.img-holder_desktop,
+.img-holder_phone{
+    position: relative;
+    margin-bottom: 30px
+}
+
+
+#desktop_image {
+    position: absolute;
+    top: 5.7%;
+    left: 4%;
+    width: 91.5%;
+}
+
+#mobile_image {
+    position: absolute;
+    top: 8%;
+    left: 21.5%;
+    width: 57%;
+}
+
+#grade,
+#seo {
+    border-bottom: 1px solid rgba(233, 235, 238, 0.2);
+}
+
+#grade h1, 
+#grade h4, 
+#grade h6,
+#seo h1,
+#suggestion{
+    color: #fff;
+}
+
+#grade p {
+    color: #f2cc33;
+}
+
+#grade h4,
+#grade img {
+    margin-bottom: 30px;
+}
+
+#grade .element {
+    padding: 0 15%;
+}
+
+#accordion h5 {
+    margin-bottom: 0;
+}
+
+#accordion .error .card {
+    background: transparent;
+    border: 1px solid #f85857;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+#accordion .warning .card {
+    background: transparent;
+    border: 1px solid #f2cc33;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+#accordion .pass .card {
+    background: transparent;
+    border: 1px solid #11998e;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+#accordion h5 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#accordion .error_text {
+    color: #f85857;
+}
+
+#accordion .warning_text {
+    color: #f2cc33;
+}
+
+#accordion .pass_text {
+    color: #11998e;
+}
+
+#accordion .card-body {
+    color: #fff;
+}
+
+#accordion .error .card-body h4 {
+    color: #f85857;
+    font-size: 18px;
+}
+
+#accordion .warning .card-body h4 {
+    color: #f2cc33;
+    font-size: 18px;
+}
+
+#accordion .card-body ul {
+    list-style: none;
+}
+
+.sub_list {
+    margin-top: 10px;
+}
+
+.sub_list_li {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+#accordion .pass ul li {
+    margin-bottom: 10px;
+}
+
+
+#suggestion .card {
+    background: transparent;
+}
+
+#suggestion .card-body {
+    border: 1px solid rgba(233, 235, 238, 0.2);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+#suggestion h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+#suggestion p {
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
